@@ -1,0 +1,63 @@
+/* Outer container */
+.experience-container {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.experience-container::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d1d1d1;
+}
+
+/* Experience card */
+.experience-card {
+  padding: 24px;
+  width: 45%;
+
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #1e1e1e;
+}
+.experience-card.reverse {
+  align-self: flex-end;
+  margin-right: 0;
+}
+
+.experience-card img {
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 10;
+}
+
+.experience-card p {
+  text-align: left;
+}
+
+.experience-date {
+  position: absolute;
+  left: calc(50% + 65px);
+  color: #f3f3f3 !important;
+}
+.experience-date.reverse {
+  left: auto;
+  right: calc(50% + 65px);
+}
+
+.horizontal-line {
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 5px solid #d1d1d1;
+  z-index: -1;
+}
