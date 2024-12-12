@@ -19,14 +19,14 @@ function Home() {
           </div>
           <div className="contact-links">
             <a href="https://github.com/smithr38atwit" target="_blank">
-              <img height={26} src="src/assets/contact_icons/github.svg" alt="github icon" />
+              <img height={26} src="/contact_icons/github.svg" alt="github icon" />
             </a>
             <a href="https://www.linkedin.com/in/smithr38/" target="_blank">
-              <img width={26} src="src/assets/contact_icons/linkedin.svg" alt="linkedin icon" />
+              <img width={26} src="/contact_icons/linkedin.svg" alt="linkedin icon" />
             </a>
             {/* TODO: add copy to clipboard option? */}
             <a href="mailto:smithr3873@gmail.com" target="_blank">
-              <img width={18} src="src/assets/contact_icons/gmail.svg" alt="gmail icon" />
+              <img width={18} src="/contact_icons/gmail.svg" alt="gmail icon" />
             </a>
           </div>
         </div>

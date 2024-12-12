@@ -64,7 +64,7 @@ export const PROJECTS = [
     end_year: 2023,
     description:
       "A website that allows easy viewing of the most important information regarding the Formula 1 motorsport series. It uses plain HTML/CSS/Javascript on the front end and Python/FastAPI on the back end. This was made as the final project for my Web Development college course during my junior year.",
-    image: "src/assets/project_images/ez_f1.png",
+    image: "/project_images/ez_f1.png",
     links: [
       {
         name: "GitHub",
@@ -79,7 +79,7 @@ export const PROJECTS = [
     end_year: 2024,
     description:
       "I have made 2 mods for the RPG game Baldur's Gate 3: Auto Hide Summons and Group Perform. They were published on NexusMods and used by the game's modding community with over 47,000 unique downloads across them. Any scripts involved in these mods were written in Lua.",
-    image: "src/assets/project_images/bg3mods.png",
+    image: "/project_images/bg3mods.png",
     links: [
       {
         name: "Group Perform",
@@ -101,7 +101,7 @@ export const EXPERIENCE = [
     end_date: "Dec 2024",
     description:
       'I completed my master\'s degree in applied computer science at WIT. The related coursework focused heavily machine learning and deep learning. I wrote my thesis on "Pathfinding and Obstacle Avoidance for Warehouse Robots using Reinforcement Learning".',
-    icon_path: "src/assets/exp_logos/wit_logo.png",
+    icon_path: "/exp_logos/wit_logo.png",
   },
   {
     title: "Software Engineering Intern",
@@ -110,7 +110,7 @@ export const EXPERIENCE = [
     end_date: "Sep 2024",
     description:
       "My 3rd internship was at a fast paced startup that heavily valued learning. I did full-stack web development in a team setting where I used React and PHP. Also completed a solo intern project: an internal dashboard for viewing data about the company's customers.",
-    icon_path: "src/assets/exp_logos/golinks_logo.png",
+    icon_path: "/exp_logos/golinks_logo.png",
   },
   {
     title: "BS in Computer Science",
@@ -118,7 +118,7 @@ export const EXPERIENCE = [
     start_date: "Sep 2019",
     end_date: "Aug 2023",
     description: "I completed my bachelor's in computer science at WIT with a GPA of 3.33.",
-    icon_path: "src/assets/exp_logos/wit_logo.png",
+    icon_path: "/exp_logos/wit_logo.png",
   },
   {
     title: "Software Co-op",
@@ -127,7 +127,7 @@ export const EXPERIENCE = [
     end_date: "Dec 2022",
     description:
       "My second co-op involved a variety of projects for different customers. Most notably, I worked in a team on a web application using Angular and C#. I also completed a database migration script for a client and worked with them directly to execute the migration.",
-    icon_path: "src/assets/exp_logos/rovisys_logo.png",
+    icon_path: "/exp_logos/rovisys_logo.png",
   },
   {
     title: "Product Support Engineering Co-op",
@@ -136,6 +136,6 @@ export const EXPERIENCE = [
     end_date: "May 2022",
     description:
       "My first co-op was in a hybrid programming/engineering role at a semi-conductor testing company. I completed a proof of concept for a Windows Forms desktop app that allowed engineers to interact with a 3D CAD model and view information about selected parts. Also wrote a Python web scraper to collect data and assisted engineers with various tasks.",
-    icon_path: "src/assets/exp_logos/teradyne_logo.png",
+    icon_path: "/exp_logos/teradyne_logo.png",
   },
 ];
