@@ -1,18 +1,18 @@
 export const PROJECTS = [
-  {
-    title: "Personal Website",
-    type: "Personal",
-    start_year: 2024,
-    end_year: 2024,
-    description: "The website which you are currently on 🙂. It is built using React and hosted on GitHub pages.",
-    image: "",
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/smithr38atwit/smithr38atwit.github.io",
-      },
-    ],
-  },
+	// {
+	// 	title: "Personal Website",
+	// 	type: "Personal",
+	// 	start_year: 2024,
+	// 	end_year: 2024,
+	// 	description: "The website which you are currently on 🙂. It is built using React and hosted on GitHub pages.",
+	// 	image: "",
+	// 	links: [
+	// 		{
+	// 			name: "GitHub",
+	// 			link: "https://github.com/smithr38atwit/smithr38atwit.github.io",
+	// 		},
+	// 	],
+	// },
   {
     title: "LED Matrix Controller",
     type: "Personal",
@@ -20,7 +20,7 @@ export const PROJECTS = [
     end_year: 2024,
     description:
       "Scripts to display different messages and animations on an RGB LED matrix, as well as a website to control it. The display controller is a Raspberry Pi 3 that runs Python scripts, which can display a “meeting in progress” sign, a score tracker for ongoing games in different sports, and a mini weather/news station. The website is written using Flask and also hosted on the Raspberry Pi.",
-    image: "",
+		image: "/project_images/led_matrix.png",
     links: [
       {
         name: "GitHub",
@@ -34,7 +34,7 @@ export const PROJECTS = [
     start_year: 2024,
     end_year: 2024,
     description:
-      "An auto-response Discord bot and accompanying website to manage it. The bot is controlled by a Python script, with its primary function being to scan messages sent in a Discord server and send a response when keywords are detected. The website was built using Flask and is used to update the keywords/response pairs for the bot, which are stored in a SQLite database.",
+			"(IN PROGRESS) An auto-response Discord bot and accompanying website to manage it. The bot is controlled by a Python script, with its primary function being to scan messages sent in a Discord server and send a response when keywords are detected. The website was built using Flask and is used to update the keywords/response pairs for the bot, which are stored in a SQLite database.",
     image: "",
     links: [
       {
@@ -49,7 +49,7 @@ export const PROJECTS = [
     start_year: 2023,
     end_year: 2024,
     description: "My thesis for completion of the Applied Computer Science degree at WIT.", // TODO: copy abstract,
-    image: "",
+		image: "/project_images/thesis.png",
     links: [
       {
         name: "GitHub",
@@ -57,13 +57,28 @@ export const PROJECTS = [
       },
     ],
   },
+	{
+		title: "City Explorer",
+		type: "School",
+		start_year: 2023,
+		end_year: 2023,
+		description:
+			"A mobile-focused web application with the goal of encouraging users to get outside and explore their city or local area. The front end was built using React, and the back end using Python/FastAPI. I worked in a team of three to complete this website as our senior project, and contributed by building the backend along with large portions of the frontend.",
+		image: "/project_images/city_explorer.png",
+		links: [
+			{
+				name: "GitHub",
+				link: "https://github.com/smithr38atwit/CityExplorer",
+			},
+		],
+	},
   {
     title: "F1 EZ Schedule",
     type: "School",
     start_year: 2023,
     end_year: 2023,
     description:
-      "A website that allows easy viewing of the most important information regarding the Formula 1 motorsport series. It uses plain HTML/CSS/Javascript on the front end and Python/FastAPI on the back end. This was made as the final project for my Web Development college course during my junior year.",
+			"A website that allows easy viewing of the most important information regarding the Formula 1 motorsport series. It uses plain HTML/CSS/Javascript on the front end and Python/FastAPI on the back end. This was made in a team of two as the final project for my Web Development college course during my senior year.",
     image: "/project_images/ez_f1.png",
     links: [
       {
