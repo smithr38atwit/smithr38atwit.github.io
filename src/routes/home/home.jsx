@@ -1,3 +1,4 @@
+import { INTRO } from "../../data/text_data";
 import "./home.css";
 
 function Home() {
@@ -8,15 +9,9 @@ function Home() {
         <div className="introduction">
           <div className="intro-text">
             <h3>Hey, I&apos;m Ryan!</h3>
-            <p>
-              I&apos;m a current grad student pursuing my master&apos;s degree in Computer Science, and I&apos;ve had a
-              passion for programming ever since my first introduction to Java in high school.
-            </p>
-            <p>
-              My interests are directed towards <strong>machine learning</strong>, especially as it applies to robotics,
-              and <strong>web development</strong>, but I&apos;m always keen to learn new things.
-            </p>
-          </div>
+            <p>{INTRO.p1}</p>
+            <p>{INTRO.p2}</p>
+            </div>
           <div className="contact-links">
             <a href="https://github.com/smithr38atwit" target="_blank">
               <img height={26} src="/contact_icons/github.svg" alt="github icon" />
