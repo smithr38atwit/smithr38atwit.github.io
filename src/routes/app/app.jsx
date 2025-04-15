@@ -20,13 +20,20 @@ function App() {
         <Link to="experience" className={isActive("/experience")}>
           Experience
         </Link>
-        <Link to="about" className={isActive("/about")}>
+        {/* <Link to="about" className={isActive("/about")}>
           About Me
-        </Link>
+        </Link> */}
         {/* TODO: color theme switcher */}
       </nav>
 
       <Outlet />
+
+      <footer>
+        <div className="copyright">
+          <p>© 2024-2025 Ryan Smith</p>
+          <p>All rights reserved.</p>
+        </div>
+      </footer>
     </>
   );
 }

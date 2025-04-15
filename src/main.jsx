@@ -7,7 +7,6 @@ import ErrorPage from "./error_page.jsx";
 import Home from "./routes/home/home.jsx";
 import Projects from "./routes/projects/projects.jsx";
 import Experience from "./routes/experience/experience.jsx";
-import About from "./routes/about/about.jsx";
 
 const router = createHashRouter([
   {
@@ -27,10 +26,10 @@ const router = createHashRouter([
         path: "experience",
         element: <Experience />,
       },
-      {
-        path: "about",
-        element: <About />,
-      },
+      // {
+      //   path: "about",
+      //   element: <About />,
+      // },
     ],
   },
 ]);
