@@ -1,17 +1,21 @@
-import { INTRO } from "../../data/text_data";
 import "./home.css";
 
+const INTRO = {
+	p1: "I'm a recent college graduate with a Bachelor's and Master's in Computer Science, and programming experience from multiple projects and internships.",
+	p2: "I have a passion for software development and a strong interest in machine learning and robotics. My experience is primarily in web devlopment with React, but I'm always eager to learn new technologies and improve my skills.",
+};
+
 function Home() {
-  return (
-    <>
-      <h1>Home</h1>
-      <section className="home-container">
-        <div className="introduction">
-          <div className="intro-text">
-            <h3>Hey, I&apos;m Ryan!</h3>
-            <p>{INTRO.p1}</p>
-            <p>{INTRO.p2}</p>
-            </div>
+	return (
+		<>
+			<h1>Home</h1>
+			<section className="home-container">
+				<div className="introduction">
+					<div className="intro-text">
+						<h3>Hey, I&apos;m Ryan!</h3>
+						<p>{INTRO.p1}</p>
+						<p>{INTRO.p2}</p>
+					</div>
 					<div>
 						<p style={{ marginBottom: 8 }}>Skills:</p>
 						<div className="skills">
@@ -27,24 +31,24 @@ function Home() {
 					</div>
 					<div>
 						<p style={{ marginBottom: 8 }}>Links:</p>
-          <div className="contact-links">
-            <a href="https://github.com/smithr38atwit" target="_blank">
+						<div className="contact-links">
+							<a href="https://github.com/smithr38atwit" target="_blank">
 								<img height={26} src="/contact_icons/github.svg" alt="github" title="GitHub" />
-            </a>
-            <a href="https://www.linkedin.com/in/smithr38/" target="_blank">
+							</a>
+							<a href="https://www.linkedin.com/in/smithr38/" target="_blank">
 								<img width={26} src="/contact_icons/linkedin.svg" alt="linkedin" title="LinkedIn" />
-            </a>
-            {/* TODO: add copy to clipboard option? */}
-            <a href="mailto:smithr3873@gmail.com" target="_blank">
+							</a>
+							{/* TODO: add copy to clipboard option? */}
+							<a href="mailto:smithr3873@gmail.com" target="_blank">
 								<img width={18} src="/contact_icons/gmail.svg" alt="gmail" title="GMail" />
-            </a>
+							</a>
 						</div>
-          </div>
-        </div>
-        {/* TODO: add projects and experience highlights */}
-      </section>
-    </>
-  );
+					</div>
+				</div>
+				{/* TODO: add projects and experience highlights */}
+			</section>
+		</>
+	);
 }
 
 export default Home;

@@ -19,7 +19,7 @@ export const PROJECTS = [
 		start_year: 2024,
 		end_year: 2024,
 		description:
-			"Scripts to display different messages and animations on an RGB LED matrix, as well as a website to control it. The display controller is a Raspberry Pi 3 that runs Python scripts, which can display a “meeting in progress” sign, a score tracker for ongoing games in different sports, and a mini weather/news station. The website is written using Flask and also hosted on the Raspberry Pi.",
+			"Scripts to display different messages and animations on an RGB LED matrix, as well as a website to control it. The display controller is a Raspberry Pi 3 that runs Python scripts, which can display a “meeting in progress” sign, a score tracker for ongoing games in different sports, and a mini weather/news station. The website is written using Flask and also hosted on the Raspberry Pi. (Website in progress)",
 		image: "/project_images/led_matrix.png",
 		links: [
 			{
@@ -29,26 +29,12 @@ export const PROJECTS = [
 		],
 	},
 	{
-		title: "Discord Bot",
-		type: "Personal",
-		start_year: 2024,
-		end_year: 2024,
-		description:
-			"(IN PROGRESS) An auto-response Discord bot and accompanying website to manage it. The bot is controlled by a Python script, with its primary function being to scan messages sent in a Discord server and send a response when keywords are detected. The website was built using Flask and is used to update the keywords/response pairs for the bot, which are stored in a SQLite database.",
-		image: "",
-		links: [
-			{
-				name: "GitHub",
-				link: "https://github.com/smithr38atwit/Gulag-Bot",
-			},
-		],
-	},
-	{
 		title: "Master's Thesis",
 		type: "School",
 		start_year: 2023,
 		end_year: 2024,
-		description: "My thesis for completion of the Applied Computer Science degree at WIT.", // TODO: copy abstract,
+		description:
+			"My thesis for completion of the Applied Computer Science degree at WIT, in which I used reinforcement learning to train simulated warehouse robots to deliver shelves while avoiding dynamic obstacles.",
 		image: "/project_images/thesis.png",
 		links: [
 			{
@@ -106,6 +92,21 @@ export const PROJECTS = [
 			},
 		],
 	},
+	{
+		title: "Discord Bot",
+		type: "Personal",
+		start_year: 2024,
+		end_year: 2024,
+		description:
+			"(IN PROGRESS) An auto-response Discord bot and accompanying website to manage it. The bot is controlled by a Python script, with its primary function being to scan messages sent in a Discord server and send a response when keywords are detected. The website was built using Flask and is used to update the keywords/response pairs for the bot, which are stored in a SQLite database.",
+		image: "",
+		links: [
+			{
+				name: "GitHub",
+				link: "https://github.com/smithr38atwit/Gulag-Bot",
+			},
+		],
+	},
 ];
 
 export const EXPERIENCE = [
@@ -154,8 +155,3 @@ export const EXPERIENCE = [
 		icon_path: "/exp_logos/teradyne_logo.png",
 	},
 ];
-
-export const INTRO = {
-	p1: "I'm a recent college graduate with a Bachelor's and Master's in Computer Science, and programming experience from multiple projects and internships.",
-	p2: "I have a passion for software development and a strong interest in machine learning and robotics. My experience is primarily in web devlopment with React, but I'm always eager to learn new technologies and improve my skills.",
-};
