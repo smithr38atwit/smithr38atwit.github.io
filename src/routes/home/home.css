@@ -30,7 +30,7 @@
   text-align: left;
 }
 
-.contact-links {
+.contact-links, .skills {
   display: flex;
   gap: 15px;
 }
@@ -44,6 +44,10 @@
 
   border-radius: 50%;
   background: #fff;
+}
+
+.skills img {
+  width: 24px;
 }
 
 .contact-links a:hover {
